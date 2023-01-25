@@ -24,6 +24,16 @@ Give the print statements
 Print the result
 
 ## PROGRAM:
+```python
+#Reference no : 22009026
+#Developed by : Lavanya M
+num_words = 0 
+with open('test2.txt','r') as f1: 
+    for i in f1: 
+        word = i.split() 
+        num_words += len(word) 
+print("number of words in the file = {}".format(num_words))
+```
 
 ### OUTPUT:
 ![](wordcount1.png)
